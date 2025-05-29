@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RCB Banking App</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        input, select {
+            margin: 8px 0;
+            padding: 10px;
+            width: 220px;
+        }
+
+        button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            margin: 10px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 220px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #c0392b;
+        }
+
+        div.section {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        #entry_section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 8px 16px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .logout-btn {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .logout-btn:hover {
+            background-color: #c0392b;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="section" id="entry_section">
+        <h2>Welcome to Canada's largest banking app</h2>
+        <button onclick="showSection('signup_section')">Sign Up</button>
+        <button onclick="showSection('login_section')">Log In</button>
+    </div>
+
+    <div class="section" id="signup_section">
+        <h2>Sign Up</h2>
+        <input id="su_fname" placeholder="First Name">
+        <input id="su_lname" placeholder="Last Name">
+        <input type="email" id="su_email" placeholder="Email">
+        <input type="password" id="su_password" placeholder="Password">
+        <input type="number" id="su_balance" placeholder="Initial Deposit">
+        <select id="su_type">
+            <option value="Current_Account">Current Account</option>
+            <option value="Saving_account">Saving Account</option>
+        </select>
+        <button onclick="signup(); 
+            document.getElementById('su_fname').value = ''; 
+            document.getElementById('su_lname').value = ''; 
+            document.getElementById('su_email').value = ''; 
+            document.getElementById('su_password').value = ''; 
+            document.getElementById('su_balance').value = ''; 
+            document.getElementById('su_type').selectedIndex = 0;">
+        Create Account</button>
+        <p id="signup_msg"></p>
+        <button onclick="showSection('entry_section')">Back</button>
+    </div>
+
+    <div class="section" id="login_section">
+        <h2>Login</h2>
+        <input type="email" id="lg_email" placeholder="Email">
+        <input type="password" id="lg_password" placeholder="Password">
+        <button onclick="login();document.getElementById('lg_email').value = '';document.getElementById('lg_password').value=''">Login</button>
+        <p id="login_msg"></p>
+        <button onclick="showSection('entry_section')">Back</button>
+    </div>
+
+    <div class="section" id="actions_section">
+        <h2>Menu</h2>
+        <button onclick="showSection('deposit_input_section')">Deposit</button>
+        <button onclick="showSection('withdraw_input_section')">Withdraw</button>
+        <button onclick="showSection('balance_check_section')">Check Balance</button>
+        <button onclick="getTxns()">Get Transactions</button>
+        <button class="btn-main logout-btn" onclick="logout()">Log Out</button>
+    </div>
+
+    <div class="section" id="deposit_input_section">
+        <h3>Please enter amount to deposit</h3>
+        <input type="number" id="deposit_amount" placeholder="Amount">
+        <button onclick="submitDeposit()">Deposit</button>
+        <button onclick="showSection('actions_section')">Back to menu</button>
+    </div>
+
+    <div class="section" id="deposit_success_section">
+        <p id="deposit_result"></p>
+        <button onclick="showSection('actions_section')">Go to menu</button>
+    </div>
+
+    <div class="section" id="withdraw_input_section">
+        <h3>Please enter amount to withdraw</h3>
+        <input type="number" id="withdraw_amount" placeholder="Amount">
+        <button onclick="submitWithdraw()">Withdraw</button>
+        <button onclick="showSection('actions_section')">Back to menu</button>
+    </div>
+
+    <div class="section" id="withdraw_success_section">
+        <p id="withdraw_result"></p>
+        <button onclick="showSection('actions_section')">Go to menu</button>
+    </div>
+
+    <div class="section" id="balance_check_section">
+        <h3>Your current balance is:</h3>
+            <p id="balance_val"></p>
+
+            <button class="btn-main" id="toggle_balance_btn" onclick="toggleBalance()">Show Balance</button>
+            <button class="btn-main" onclick="showSection('actions_section')">Go to Menu</button>
+
+    </div>
+
+    <div class="section" id="transactions_section">
+        <h3>Transactions</h3>
+        <table id="txn_table">
+            <thead>
+                <tr>
+                    <th>Transaction Number</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <button onclick="showSection('actions_section')">Back to Menu</button>
+    </div>
+
+    <script>
+        let userEmail = "";
+        let balanceVisible = false;
+
+        function showSection(id) {
+            document.querySelectorAll('.section').forEach(s => s.style.display = 'none');
+            document.getElementById(id).style.display = 'flex';
+
+            if (id === 'login_section') {
+                document.getElementById('login_msg').innerText = '';
+            }
+        }
+
+
+
+        function signup() {
+            const signupMsg = document.getElementById('signup_msg');
+            signupMsg.innerText = ''; // Clear previous message
+
+            const payload = {
+                first_name: document.getElementById('su_fname').value,
+                last_name: document.getElementById('su_lname').value,
+                email: document.getElementById('su_email').value,
+                password: document.getElementById('su_password').value,
+                balance: parseInt(document.getElementById('su_balance').value),
+                account_type: document.getElementById('su_type').value
+            };
+
+            fetch('/signup', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            })
+            .then(res => res.json())
+            .then(data => {
+                // ✅ Only show message if there's an error
+                if (data.error) {
+                    signupMsg.innerText = data.error;
+                } else {
+                    signupMsg.innerText = ''; // Clear any old message just in case
+                    showSection('entry_section'); // silently go back to main page
+                }
+            })
+            .catch(error => {
+                console.error("Signup error:", error);
+                signupMsg.innerText = 'Signup error occurred.';
+            });
+        }
+
+
+        function login() {
+            const loginMsg = document.getElementById('login_msg');
+            loginMsg.innerText = ''; // Clear previous message
+
+            const payload = {
+                email: document.getElementById('lg_email').value,
+                password: document.getElementById('lg_password').value
+            };
+
+            userEmail = payload.email;
+
+            fetch('/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            })
+            .then(res => res.json())
+            .then(data => {
+                // ❌ Don't show "Login successful" at all
+                if (data.message === 'Login successful') {
+                    showSection('actions_section');
+                    loginMsg.innerText = ''; // explicitly clear
+                } else {
+                    loginMsg.innerText = data.error || 'Login failed';
+                }
+            })
+            .catch(error => {
+                console.error("Login error:", error);
+                loginMsg.innerText = 'Login error occurred.';
+            });
+        }
+
+
+
+
+        function submitDeposit() {
+            const amount = parseInt(document.getElementById('deposit_amount').value);
+            fetch('/deposit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email: userEmail, amount: amount })
+            })
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('deposit_result').innerText = `You have deposited ${amount}. Your new balance is ${data.balance}.`;
+                showSection('deposit_success_section');
+            });
+        }
+
+        function submitWithdraw() {
+            const amount = parseInt(document.getElementById('withdraw_amount').value);
+            fetch('/withdraw', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email: userEmail, amount: amount })
+            })
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('withdraw_result').innerText = `You have withdrawn ${amount}. Your new balance is ${data.balance}.`;
+                showSection('withdraw_success_section');
+            });
+        }
+
+        function toggleBalance() {
+            const balanceText = document.getElementById('balance_val');
+            const toggleBtn = document.getElementById('toggle_balance_btn');
+
+            if (!balanceVisible) {
+                // Show balance
+                fetch(`/balance?email=${userEmail}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.balance !== undefined) {
+                            balanceText.innerText = `$${parseFloat(data.balance).toFixed(2)}`;
+                            toggleBtn.innerText = 'Hide Balance';
+                            balanceVisible = true;
+                        } else {
+                            balanceText.innerText = data.error || 'Unable to fetch balance.';
+                        }
+                    })
+                    .catch(err => {
+                        console.error(err);
+                        balanceText.innerText = 'Error fetching balance.';
+                    });
+            } else {
+                // Hide balance
+                balanceText.innerText = '';
+                toggleBtn.innerText = 'Show Balance';
+                balanceVisible = false;
+            }
+        }
+
+
+
+        function getTxns() {
+            fetch(`/transactions?email=${userEmail}`)
+                .then(res => res.json())
+                .then(data => {
+                    const tbody = document.querySelector('#txn_table tbody');
+                    tbody.innerHTML = "";
+
+                    if (Array.isArray(data.transactions)) {
+                        data.transactions.forEach((txn, idx) => {
+                            const row = document.createElement('tr');
+                            row.innerHTML = `<td>${idx + 1}</td><td>${txn.description}</td><td>${txn.amount}</td>`;
+                            tbody.appendChild(row);
+                        });
+                    } else {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `<td colspan="3">${data.error || "No transactions found."}</td>`;
+                        tbody.appendChild(row);
+                    }
+
+                    showSection('transactions_section');
+                })
+                .catch(error => {
+                    console.error("Failed to fetch transactions:", error);
+                    const tbody = document.querySelector('#txn_table tbody');
+                    tbody.innerHTML = `<tr><td colspan="3">An error occurred.</td></tr>`;
+                    showSection('transactions_section');
+                });
+            }
+
+        function logout() {
+            fetch('/logout', { method: 'POST' })
+                .then(res => res.json())
+                .then(data => {
+                    userEmail = ""; // Clear frontend reference
+                    showSection('entry_section'); // Go to home
+                })
+                .catch(err => {
+                    console.error("Logout failed:", err);
+                    showSection('entry_section');
+                });
+        }
+
+
+    </script>
+</body>
+</html>
