@@ -1,0 +1,744 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.31.4.223:3000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 123-294-673
+24.150.237.18 - - [14/Jun/2025 05:49:05] "GET / HTTP/1.1" 304 -
+24.150.237.18 - - [14/Jun/2025 05:49:24] code 400, message Bad request version ('wwÀ\x0e\x02iY+\x88ã\x055\x01ø\x8b\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:24] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x1e\x808]:}ó\x03Þ\x8d"ÂÑOWV\x80FWb7\x8b\x8fÍ7-Æ\x8f\x0böy  )®Ý³/9°\x8f\x07\x93\x18þ6©¼%\x1ewwÀ\x0e\x02iY+\x88ã\x055\x01ø\x8b\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:24] code 400, message Bad request version ('Ä§Cæ8\x03uPpDAÕ±ä±¡\x17$¸¤¤_\x00*ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:24] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x17\x0d:\x8c+]ný\x93\x1fÀÊ1zsþ\x03ZMß\x8fXpÝ\x12ÁÕÜa+x³ ´¬o\x94mG´é®\x09Ä§Cæ8\x03uPpDAÕ±ä±¡\x17$¸¤¤_\x00*ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:24] code 400, message Bad request version ('\x99Óñ¼^\x11\x14\x9dð\x9b~&')
+24.150.237.18 - - [14/Jun/2025 05:49:24] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03OoOT\x92G\x056$\x05\x87âw£\x1d\x8cÖ&®\x08í\x93»\x89\x05÷äÅ¯¨0' \x99Óñ¼^\x11\x14\x9dð\x9b~&" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:24] code 400, message Bad request version ('?È´\x16¬âÏË÷¼\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:24] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x80t§×\x80\x87\x14\x81:ßGÆÓ¨[Rp\x82·z] IqÆ[Bå\x8aìø\x90 \x13ü<!î±\x80#èÈX\x93¿pB\x83÷´uüü\x0d?È´\x16¬âÏË÷¼\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:25] code 400, message Bad request version ('*\xadäúI\x07¹C\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:25] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x89sm@}`\x04\x0b½©\x9d}t§Ôùw\x97Áj³`\x99\x0d[\x1d½\x95H¬oÆ \x96\x96bÏ??vbç¢cß§Þ\x15éÂ·¡\x8d\x929J\x1e*­äúI\x07¹C\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:25] code 400, message Bad request version ('\x00S\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:25] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x0c³¸\x83\x01+\x7f1ho9\x9am\x08ÕÈ$ëg\x0d\x85Ñºý;À´ûªr g V\x00\x18¿R\x8bm9Î\x9a\x92î»;ëÄâ>\x0c£äÏ\x11b\x1c+â#Ð \x00S\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:25] code 400, message Bad request version ('\x05Å\x1a°<afs\x17U)Æ\x08\x9bÜ\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:25] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03S7\x92m«ý0ÞÃä¡'y¯Ù\x17×\x0bvg.3*\x94-É-î\x16\x84\x85n 7¾Y8\x06Mz\x19ª\x86~\x9aÂ\x87Ø0\x85\x05Å\x1a°<afs\x17U)Æ\x08\x9bÜ\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:25] code 400, message Bad request version ('Ô&}W#ýö\x99iÕE¡\x9aÆ')
+24.150.237.18 - - [14/Jun/2025 05:49:25] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03©ÕP\x8aYËâ\x8e\x14~Ý\x88\x0d1èý\x1e\x0eæÑÝÊ­Býê-hè\x0e3\x04 |àm­{\x0bÔ&}W#ýö\x99iÕE¡\x9aÆ" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:31] code 400, message Bad request version ('\x15{9ì\x86Y¼\x14\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:31] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x17Æ2Øh\x13Þ8@ç\x0dA)v\x01\x08µ²Ð\x97J\x88\x1d¤kS`\x99`7\x82\x0f ø\x82q;ö\x93¦$%!,U4öÏ-\x929\x02b\x91\x93\x93\x09\x15{9ì\x86Y¼\x14\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:31] code 400, message Bad request version ('¥Ñ\x9d&]\x0fÂZÎ±\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:31] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03æµ\x1a\x86^äLØ|\x1eKZ]Ãñë\x9b?ö\x9e\x80("\x87\x85\x94ï\x91`&B¸ `¶ö\x0c\x03qæ¯r_o¦T&\x9dïç!j¡\x11\x1e¥Ñ\x9d&]\x0fÂZÎ±\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:31] code 400, message Bad request version ("½Lêî\x93wÄÖîpiÿ#Tûý@Ë»\x08¤'\x86\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+24.150.237.18 - - [14/Jun/2025 05:49:31] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03vHr¿±©Õ\x99.4¬MS\x8cÿ\x95ìZYböª%¥×1¹(Øo\x0e" é¦u[Z\x82Ùñ\x0b½Lêî\x93wÄÖîpiÿ#Tûý@Ë»\x08¤'\x86\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:31] code 400, message Bad request version ('\x0fh\x9c\x12\x95Úâ\x8e<»|Mö\x8f\xadäÅGÁÕÝîyÏf:³¡OV¹$\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:31] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¯cáGÑM¡î^y«½Ë®\x85¹I\x9b\x0f®\x96]Õ\x1d\x9dñÏ\x90ËD.Ô \x0fh\x9c\x12\x95Úâ\x8e<»|Mö\x8f­äÅGÁÕÝîyÏf:³¡OV¹$\x00*ÚÚ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:31] code 400, message Bad request version ('õ8ê8\x82À\x81T§HL\x06:9µkÆ¾«ë\x87¦o\x16_U~\x80î\x9e\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:31] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Î¶\x02¯\x86¾¤p/ê²Oÿ\x03¢Æi\x0b\x1açe\x80â»Æ·I>õØ\x89ä u\x1eõ8ê8\x82À\x81T§HL\x06:9µkÆ¾«ë\x87¦o\x16_U~\x80î\x9e\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03')
+24.150.237.18 - - [14/Jun/2025 05:49:32] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03 fÞj\x19Ç?" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:32] code 400, message Bad request version ('ÞåÂ´\x065\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:32] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ý\x006\x17¡ò\x0bÍf\x97\x14à\x18M)N\x82£\x87uÛ\x8cîEäÈÝë\x9a<\x90. 6õèÙk\x08\\$¯\x16îæö\x9eJY~3}×\x86\x17¾÷\x00\x09ÞåÂ´\x065\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:32] code 400, message Bad request version ("yéÆ\x8f,rÔóý'Ø\x81%~\x82Æ\x1b\x9dÂ\x90\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+24.150.237.18 - - [14/Jun/2025 05:49:32] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¨ÍhÐÑ?Èñ|\x90Þ¤\x07Ð{ö\x9bÝ±ñ\x0e\x80"üö¶ÇÅ\x14É\x9bd Õ\x9aâÀevâ\x9d¸ìÇ\x1fyéÆ\x8f,rÔóý'Ø\x81%~\x82Æ\x1b\x9dÂ\x90\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:38] code 400, message Bad request version ('\x9f\x11^L\x87¨B\x04\x06ðÑ\x9a\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:38] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¨X\x03n\\¼\x8a¼\x87ê9Ú\x00\x0d\x9d5Ã\x90'\x10x3¹n\x9d\x11\x1b¤±ßÞÓ M\x9eh\x16éÁ\x94¾åÙ \x8dÜWÝ§ýbË \x9f\x11^L\x87¨B\x04\x06ðÑ\x9a\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:38] code 400, message Bad request version ('bâ\x8a\x04zY*Þ×\x96\x86{rc|u\x05W\x10!Ë×P\x01F°ÏR\x16\x93\x98K\x00***\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:38] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03`ÿ\x09-\x8a\x05ïÎü'Ö\x00¨@æÛïUâ\x1c\x04V\x11_ÞÓÃ\x18P.^g bâ\x8a\x04zY*Þ×\x96\x86{rc|u\x05W\x10!Ë×P\x01F°ÏR\x16\x93\x98K\x00***\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:38] code 400, message Bad request version ('½v\x92\x91ü\x82>È;çó\x96\x99')
+24.150.237.18 - - [14/Jun/2025 05:49:38] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03»Ù¯[\x8e¸=qºØÒ,\x84°\x03·\x1cC5¢3qÖÂyz\x9c\x81xþ \x83 ×\x13PÊ\x81<¤-=+\x0dV2J¯\x96²\x1f½v\x92\x91ü\x82>È;çó\x96\x99" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:38] code 400, message Bad request version ("4¬£éê·sö\x91\x86\x9enÉn'HØÝ\x8e\x9a\x08T\x13$½¾/Ö\x14\x81,|\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+24.150.237.18 - - [14/Jun/2025 05:49:38] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x99\x91÷Â\x09·´<\x93Â}\x8e£g@\x0cÌµý#Z\x93\x06Y\x1bb¾\x1c\x12õL\x9a 4¬£éê·sö\x91\x86\x9enÉn'HØÝ\x8e\x9a\x08T\x13$½¾/Ö\x14\x81,|\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:39] code 400, message Bad request version ('`Fz®\x86îÄ\x83')
+24.150.237.18 - - [14/Jun/2025 05:49:39] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03V\x10aP\x7fI\x1cÉm3$\x05¯¤¯\x1a¡øj\x98\x9c\x06Ã\x19\x1b\x1c2îz\x84\x127 Ý\x98\x90Õc\x1bKtÏSu¾ `Fz®\x86îÄ\x83" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:39] code 400, message Bad request version ('¼\x04O,IZï¾\x01m©!aO:\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:39] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ó¼û¢H@ \x84\x83°l-Â-d±á\x85Z2¨\x06eÀK¤çìm[¶à [  Èæ¬E¥\x15ö­Ü(\x16\x92Ù\x1d¼\x04O,IZï¾\x01m©!aO:\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:39] code 400, message Bad request version ('\x8emá¿Ñ²\x87Ö\x96\x11ÿ\x06®Á\x98/¸ø±+oó\x8aqBÝ\x9c\x06×ÂÐG\x00***\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:39] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03É55ªÛÎj\x0dKÚdíÎJªóL¶)*v÷pÄ|\x14d\\-ì\x1a\x93 \x8emá¿Ñ²\x87Ö\x96\x11ÿ\x06®Á\x98/¸ø±+oó\x8aqBÝ\x9c\x06×ÂÐG\x00***\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:39] code 400, message Bad request version ('¡\x91rPàpø3æoñæ\x8d6\x04\x02ìµD\x9ceUÆ\x91p\x8cÜ·©\xadú\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:39] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¾\x088\x0d\x19L\x86«ôC]X\x0c'è©Êz\x89ªµtÉAàQ¨Lt\x08¹Ú  ¡\x91rPàpø3æoñæ\x8d6\x04\x02ìµD\x9ceUÆ\x91p\x8cÜ·©­ú\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:39] code 400, message Bad request version ('¡p\x9bK]y`\x82¨ó;Ih\x83Ç\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:39] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03E¬\x911BÍ:EnÌ¬îäf\x106Q\x18|e-¥wäËøñK\x9b\x04òö oí\x17\x89öoÚ\x8f\x12³ä*û\x1e¤¼\x85¡p\x9bK]y`\x82¨ó;Ih\x83Ç\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:39] code 400, message Bad request version ('\x02\x07\x1a')
+24.150.237.18 - - [14/Jun/2025 05:49:39] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03"0YÁÔU\x86ä*ñÌHdí\x9bøIB\x9fûÏ\x87\x94{¢àý\x80¼T\x05ý \x91\x87ã¬\x18>\x0c\x02\x07\x1a" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:39] code 400, message Bad request version ('Îð\x1b¤¾j\x19_TÔÑç\x94D\x81Zæ_\x0e\x93\x8eßm8O\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:39] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03DWgWù?{\x95\x1dª\x7f\x061JÝ\x0e\x0býÊF\x97ùâ\x1aÄ\x0dEz"\x18ÉX wy\x0cïÄ¢\x1fÎð\x1b¤¾j\x19_TÔÑç\x94D\x81Zæ_\x0e\x93\x8eßm8O\x00*jj\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:49:39] code 400, message Bad request version ('\x08âû\x89\x95£75\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:49:39] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03O\x03Ì­xT¸ýg÷¤Øªù>\x84hAEz;\x80¢\x1f\x1eâ`-6G\x8bæ ò`\x83HK\x7f\x94ýè\x8e)Î¯r>Ò»}\x1cq\x8aA\x1b\x1d\x08âû\x89\x95£75\x00*zz\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:52:00] code 400, message Bad request version ('\x91Ð\x97òÓÜp\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:52:00] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9a·Ñ3±\x15ü\x90"\x15Ô¾u\x82Î\x09lwÞ\x0d9\x1cxËlÿuþµÞ\x9f® W·U-µà\x80Æcá\x1cVäJÖ!Y\x0d:,/\x9c\x90j\x1f\x91Ð\x97òÓÜp\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:52:00] code 400, message Bad request version ("ÆS<W®c\x12À'\x01\x00,ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À")
+24.150.237.18 - - [14/Jun/2025 05:52:00] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03t\x9fJ\x10\x9fÿ/\x08{\x83·Õ\x8fÎ\x92'\x98ggk\x8d&ÿõ¡&ö\x09g^\x84É Êæ¼¶ôâ\x18GÜF\x93\x8eNob<\x09û\x1b\x84¹\x0bÆS<W®c\x12À'\x01\x00,ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:52:00] code 400, message Bad request version ('}(\x00\x00\x14À')
+24.150.237.18 - - [14/Jun/2025 05:52:00] "\x16\x03\x01\x00}\x01\x00\x00y\x03\x01³øn¬uÑ\x10 ¦\x80!{¡³\x10ä\x908n\x9b¾jð¤ÿv\x18.ó }(\x00\x00\x14À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:52:00] code 400, message Bad request version ('Écû\x03\x8b¼k\x9em©þä\x80à\x98Ê\x06ûÕGû\x845ê\x9f5\x16ÄZÕ\x06q\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:52:00] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x88.Ù\x9a\x91'ï+æ\x09g\x01\x1eÖ,ÕS\x90\x89dq¹\x03Ðæ\x7f\x0bú\x92ã§\x0e Écû\x03\x8b¼k\x9em©þä\x80à\x98Ê\x06ûÕGû\x845ê\x9f5\x16ÄZÕ\x06q\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:52:00] code 400, message Bad request version ('³½\x9arç\x99`¸\x81\x8aÁB\x19ÖÎ8\x88JÞ|X\x00,**\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 05:52:00] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8e¥\x17öþN\x18z gUOA\x92@§Ók$ÞçO!È\x96÷³\x1c\x1e\x09\x1b\x85 |\x91á»¹{¿¸´Ø\x1c³½\x9arç\x99`¸\x81\x8aÁB\x19ÖÎ8\x88JÞ|X\x00,**\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:52:00] code 400, message Bad request syntax ('\x16\x03\x01\x00}\x01\x00\x00y\x03\x01Fóªhi,w')
+24.150.237.18 - - [14/Jun/2025 05:52:00] "\x16\x03\x01\x00}\x01\x00\x00y\x03\x01Fóªhi,w" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 05:52:16] "POST /login HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:52:21] "GET /transactions?email=sarim HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:52:26] "GET /balance?email=sarim HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:52:57] "GET / HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:52:57] "GET /favicon.ico HTTP/1.1" 404 -
+24.150.237.18 - - [14/Jun/2025 05:53:27] "GET / HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:53:27] "GET /favicon.ico HTTP/1.1" 404 -
+24.150.237.18 - - [14/Jun/2025 05:55:52] "POST /login HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:56:08] "GET /balance?email=sarim HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:56:14] "POST /deposit HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:56:41] "POST /logout HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:57:34] "POST /logout HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:57:40] "POST /login HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:57:49] "POST /withdraw HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 05:57:52] "POST /logout HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 06:15:51] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÞRÂ~k')
+24.150.237.18 - - [14/Jun/2025 06:15:51] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÞRÂ~k" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:51] code 400, message Bad request version ('¯\x9f>¸©\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:15:51] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03{øÄ\x93þëG\x07­½\x92í\x13î\x99Âãi\x88¦zûN\x00'\x94\x84À+â»Ò X²\x1aã\\Ä¹øk÷èÖ\x02ë¨1C&\x91\x92XTÇ\x99zl\x1e¯\x9f>¸©\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:51] code 400, message Bad request version (',:§T\x00*')
+24.150.237.18 - - [14/Jun/2025 06:15:51] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x10Ò\x10ÕLÛH÷Â\x8dPJ"ZêÒÖ\x8aP\x9a\x0d_\x99Õº\x90Ë·,\x98ði î?ãe\x8dzée\x1c\x94åXX\x0f\\úªý¦AÊJ\x1dl\x07»a\x1d,:§T\x00*" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:51] code 400, message Bad request version ('bg}î.\x9dZ³±©\x80À+ÎÿoE¨¸:\x8bßm[\x83\x94\x9b9\x91ÓÅ\x9f\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:15:51] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9dÿy\x1ddõ3©\x89\x80çÞy¯2<\x85¨¾Õ|yí³mYk­¯Îèê bg}î.\x9dZ³±©\x80À+ÎÿoE¨¸:\x8bßm[\x83\x94\x9b9\x91ÓÅ\x9f\x00*ºº\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:52] code 400, message Bad request version ('\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:15:52] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03w&Û£hVn\x97a\x8dyîxþèÛ\x0d»\x13ã·âi[»=ÇSSØ\x1aã «ã7ù\x94J\x9eï:9\x17\x17\x97·µ.ï;\x02L±\x7fæ\x16ã\x03\x85\x88F#ø\x1d\x00*\x1a\x1a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:52] code 400, message Bad request version ('¶W¡\x1b¶·ÊûÜ\x02\x99\x8cÀ\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:15:52] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03×\x06\x83¦\x7f§\x98G\x93E¼\x11Úc\x85\x95ëä\x13Ý\x92WÉc¦þ\x08®2\x09=ë O{I+\x95\x84¸`þ\x9a]oY\x87o\x17\x1f9\x1f¶W¡\x1b¶·ÊûÜ\x02\x99\x8cÀ\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:52] code 400, message Bad request version ('¢\xadë^^MÎWo\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:15:52] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ë¡\x83W\x10Þ.À\x85(|\x12,o\x91$GxY`\x16\x87Ä»ÿÏj¢c\x8aG. ¢¹\x86\x81)l3£X\x03ú¦Qþ2©Û\x9a\x18\x1a\x9cu\x0d¢­ë^^MÎWo\x00*JJ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:52] code 400, message Bad request version ('\x13Áà-Ü"qûÙ\x00*')
+24.150.237.18 - - [14/Jun/2025 06:15:52] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x09\x99B\x12\x05üÂ°¾¨Ô~B\x1eÞª­/"\x9dFrä\x92ß|áØºÔ¦ú \x13\x83DÆ\x80\x1c|P\x0dÉ\x0cF\x08\x89!l\x07\x88Y×ÏÆ\x1d\x13Áà-Ü"qûÙ\x00*" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:58] code 400, message Bad request version ('Q\x13ÌåòÒ\x16¤!\x8a\x00*ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:15:58] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03;\x15Xìqû\x1fn¶o¸WÊÈ]ïJ\x8fnÏÊÁ\x15\x9b\x9aêãüêgd\x8a @Xù(±&Õ\x93gðln¦\x1fðÊsá$Ë»\x85Q\x13ÌåòÒ\x16¤!\x8a\x00*ZZ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:58] code 400, message Bad request version ('FR÷')
+24.150.237.18 - - [14/Jun/2025 06:15:58] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Øù\x8c\x10Tþ\x14­W\x84Ù\x17/\x14©äD4\x8fURê\x82\x0cÜQÃ®3|_\x96 \x1dFR÷" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:58] code 400, message Bad request version ('ð\x97¶Ibò\x01\x05§,~E\x04¹òv\x90ÀD,\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:15:58] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x0c\x82\x14G\\úøû²À¬bp-PDU\x85¸8 e³~\x88½sþ9Süì \x92×Kß\x88\x03\x93%ìü©\x1eð\x97¶Ibò\x01\x05§,~E\x04¹òv\x90ÀD,\x00*ÊÊ\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:15:58] code 400, message Bad request version ('/[Uz\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:15:58] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9a0l\x82Í\x9fP\x1eG~ºòé9Ç?h¥.>\x1dqÂE\x0eõÜ\x88úªÎ¬ \x9d\x0fé\x964Å®£\x18é\x10tÆç\x83É.\x85ÚXào,Nñ\x06ª /[Uz\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:16:08] code 400, message Bad request version ('\x96CàbðÐE?¶$ukÒQ)^\x84\x1bï')
+24.150.237.18 - - [14/Jun/2025 06:16:08] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x87\x01\x8d\x87=jÔJC²IúbÓäEÙÐu\x1cÉ;5\x81\x8a\x9a¯øÜ\x08\x10â \x96CàbðÐE?¶$ukÒQ)^\x84\x1bï" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:16:08] code 400, message Bad request version ('vÑWèZ')
+24.150.237.18 - - [14/Jun/2025 06:16:08] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03£$\x1f4\x16\x8dp\x94QÈ\x80OÅ\x9f±xÓ\x87NÜý\x19J\x8b\x12iû_å£C\x80 ¤\x19T\x8fèlnmÇIµ¾\x80á>\x88{iZ\x96\x87b\x0dvÑWèZ" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:16:09] code 400, message Bad request version ("ô©¿·5ðgÀPÂÉô'\x18iôLú\x9dî\x14Èÿ")
+24.150.237.18 - - [14/Jun/2025 06:16:09] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Á.\x8a7SæìðºS3\x8f\x14\x92d\x95RÊ¨\x1cØ*ë1}Ï\x92À\x14\x86³¶ l ô©¿·5ðgÀPÂÉô'\x18iôLú\x9dî\x14Èÿ" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:16:09] code 400, message Bad request version ('ÜÂÄ\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:16:09] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x1fôN\x17\x80c·\x10ìa \x87è\x16¸»¬Ý\x9a2Ë·\x0bK¿*#¾Û¡s; Y-i\x81é[\x96Ð\x97Ñ££\x0c\x1cQ\x86\x83º¾åñÏ´çSÈ\x18\x91\x1dÜÂÄ\x00*ªª\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:16:09] code 400, message Bad request version ('m\x96\x82)\x9bjN\x98öôÜçÈÆ«\x1b\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:16:09] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03°s[\x15`\x91ý\x8f\x96i`|ð\x12\x8b É\x8eFù«ú½£é¿\x86@sâL\x99 \x89¯ \x81·²3ã\x8c@Y\x0c\x80$o m\x96\x82)\x9bjN\x98öôÜçÈÆ«\x1b\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:16:09] code 400, message Bad request version ('»ð\x91L-Y9)t]è\x90ôþûS:Ê¡Ò°d¸mE°G\x18Ð¥w.\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:16:09] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03xh |dÇÑ\x01E ªæÃÝjZÕÄ|TÛÎj\x06\x84+\x8bg¤\x15\x94£ »ð\x91L-Y9)t]è\x90ôþûS:Ê¡Ò°d¸mE°G\x18Ð¥w.\x00*\x9a\x9a\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:16:09] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x86\x1a\x17¼'")
+24.150.237.18 - - [14/Jun/2025 06:16:09] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x86\x1a\x17¼'" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:16:09] code 400, message Bad request version ('}#»<¾P5\x13¨V$áþºÞ\x90Æ2\x996ÊsÿÎ¨W[;\x01\x05·\x86\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À')
+24.150.237.18 - - [14/Jun/2025 06:16:09] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03y,\x16JR$\x85ûB1axou¹ØRóÞ\x80\x0fÚ¬EæS¼\x04Éì\x17& }#»<¾P5\x13¨V$áþºÞ\x90Æ2\x996ÊsÿÎ¨W[;\x01\x05·\x86\x00*úú\x13\x01\x13\x02\x13\x03À,À+Ì©À0À/Ì¨À" HTTPStatus.BAD_REQUEST -
+24.150.237.18 - - [14/Jun/2025 06:16:18] "GET / HTTP/1.1" 200 -
+24.150.237.18 - - [14/Jun/2025 06:16:18] "GET /favicon.ico HTTP/1.1" 404 -
+109.205.176.189 - - [14/Jun/2025 16:12:52] "GET / HTTP/1.1" 200 -
+109.205.176.189 - - [14/Jun/2025 16:12:52] "GET / HTTP/1.1" 200 -
+109.205.176.189 - - [14/Jun/2025 16:12:52] code 400, message Bad request syntax ('JRMI\x00\x02K')
+109.205.176.189 - - [14/Jun/2025 16:12:52] "JRMI\x00\x02K" HTTPStatus.BAD_REQUEST -
+109.205.176.189 - - [14/Jun/2025 16:12:52] code 400, message Bad request syntax ('JRMI\x00\x02K')
+109.205.176.189 - - [14/Jun/2025 16:12:52] "JRMI\x00\x02K" HTTPStatus.BAD_REQUEST -
+20.163.60.228 - - [14/Jun/2025 17:41:16] "GET / HTTP/1.1" 200 -
+72.136.123.153 - - [14/Jun/2025 20:47:12] "GET / HTTP/1.1" 200 -
+72.136.123.153 - - [14/Jun/2025 20:47:13] "GET / HTTP/1.1" 304 -
+72.136.123.153 - - [14/Jun/2025 20:47:13] "GET / HTTP/1.1" 304 -
+198.235.24.85 - - [14/Jun/2025 21:55:23] "GET / HTTP/1.1" 200 -
+198.235.24.154 - - [15/Jun/2025 00:44:35] "GET / HTTP/1.0" 200 -
+99.237.34.73 - - [15/Jun/2025 01:54:19] "GET / HTTP/1.1" 200 -
+99.237.34.73 - - [15/Jun/2025 01:54:20] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.155.73 - - [15/Jun/2025 01:55:14] code 400, message Bad request version ('À\x14À')
+199.45.155.73 - - [15/Jun/2025 01:55:14] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03`c\x03_\x0dÓ-\x1d\x199ÁØ¦zi-êf\x8flÙÁí·\x9fø°f{| + Ö\x11ù-T%W©$ÒT\x0déÙoÔ\x9aÃ\x80ïè\x84ª 1 Ùy_\x85¦ò\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+199.45.155.73 - - [15/Jun/2025 01:55:18] "GET / HTTP/1.1" 200 -
+199.45.155.73 - - [15/Jun/2025 01:55:23] "GET / HTTP/1.1" 200 -
+199.45.155.73 - - [15/Jun/2025 01:55:24] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.155.73 - - [15/Jun/2025 01:55:25] code 505, message Invalid HTTP version (2.0)
+199.45.155.73 - - [15/Jun/2025 01:55:25] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+199.45.155.73 - - [15/Jun/2025 01:55:31] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.155.73 - - [15/Jun/2025 01:55:32] code 400, message Bad request version ('À\x14À')
+199.45.155.73 - - [15/Jun/2025 01:55:32] "\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03\x06Ç\x1der\x05¡\x02sÜ\x8aß«}ý\x97ütâ\x9c\x01/\x96çÊ\x1aîkå\x11{\x87 ¶\x8a\x14Ô\x830SM\x09Þ·k5y¬'ôÉtìKõ\x02þ\x11¬^\x12\x1aål·\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+199.45.155.73 - - [15/Jun/2025 01:55:37] code 400, message Bad request version ('À\x14À')
+199.45.155.73 - - [15/Jun/2025 01:55:37] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03KÚ¼\x03à¸%mù|p\x05\x97X\\\x81\x14\x19Uó\x8dò@z¾ää©ü#\x83m \x9c\x05\x05A4ìÚ{æÅJJo\x84lïy©]\x1b§F&·Þ\x0fÂ\x11\x8c\x90©\x9b\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+199.45.155.73 - - [15/Jun/2025 01:55:38] "GET /login HTTP/1.1" 405 -
+199.45.155.73 - - [15/Jun/2025 01:55:38] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.155.73 - - [15/Jun/2025 01:55:39] code 400, message Bad request version ('À\x14À')
+199.45.155.73 - - [15/Jun/2025 01:55:39] "\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03lÁÿ\x14äe:\x08:Ì©c\x10\x19Õ\x1dñR>\x1aÑ¼Å\x9c\x92Lñ¤ æã3 \x90\x1a~\x05c;Àé\x9fc@ù¶\\Â)\x92SX¼nÎ\x06\x842Â|\x9e\x09\x85:\x10\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+99.237.34.73 - - [15/Jun/2025 01:55:44] "GET / HTTP/1.1" 304 -
+199.45.155.75 - - [15/Jun/2025 05:37:05] code 400, message Bad request version ('À\x14À')
+199.45.155.75 - - [15/Jun/2025 05:37:05] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03 \x00\x04ä\x86*~òÓÂ$ïÇ1r0º$-_\x1c\x8aÆÂÉ\x9797Çj\x95í \x8eÂxn¹sZF¡\x9cq 9N¼\x85Üh\x1b¥uyÝÄ\x146÷z\\9\x95p\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+199.45.155.75 - - [15/Jun/2025 05:37:08] "GET / HTTP/1.1" 200 -
+199.45.155.75 - - [15/Jun/2025 05:37:14] "GET / HTTP/1.1" 200 -
+199.45.155.75 - - [15/Jun/2025 05:37:16] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.155.75 - - [15/Jun/2025 05:37:17] code 505, message Invalid HTTP version (2.0)
+199.45.155.75 - - [15/Jun/2025 05:37:17] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+199.45.155.75 - - [15/Jun/2025 05:37:24] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.155.75 - - [15/Jun/2025 05:37:25] code 400, message Bad request version ('À\x14À')
+199.45.155.75 - - [15/Jun/2025 05:37:25] "\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03\x8acÀÇs0¥>Ë\x91\x97\x92Ø»ÈÞü\x9ayR\x99=¦\x90»\x8bàhÅ\x89¸Î  \x82YJÀÖjm\x9bÇ\x06óØI&f¼\x0fi1ß$\x9d3\x99~\x9dªLêf9\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+199.45.155.75 - - [15/Jun/2025 05:37:31] code 400, message Bad request version ('Ú')
+199.45.155.75 - - [15/Jun/2025 05:37:31] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ó?Àî´8Hº\x83\x1cÆÆ\x0ef\x86¹\x81"\x1f\x9bû?w9¹¬ä\x85ÔmÂò Ú" HTTPStatus.BAD_REQUEST -
+199.45.155.75 - - [15/Jun/2025 05:37:32] "GET /login HTTP/1.1" 405 -
+199.45.155.75 - - [15/Jun/2025 05:37:36] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.155.75 - - [15/Jun/2025 05:37:37] code 400, message Bad request version ('À\x14À')
+199.45.155.75 - - [15/Jun/2025 05:37:37] "\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03w\x90{\\\x90v\x18buû\x9e NÕ\x87\x85v\x03<¿\x83îò\x17óÐVÓL\x83¤Ñ ¼¼:\x16Ê`bêÛ@¸XÔ·Ku\x07Å\x16ÜÜ-x§\x8fþ®q\x09Eì\x94\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.31.4.223:3000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 497-709-804
+127.0.0.1 - - [15/Jun/2025 06:55:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 06:55:50] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 06:56:33] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 06:57:04] "GET / HTTP/1.0" 304 -
+127.0.0.1 - - [15/Jun/2025 06:57:04] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 06:59:55] "GET / HTTP/1.0" 304 -
+127.0.0.1 - - [15/Jun/2025 07:00:03] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:00:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:00:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:00:49] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:02:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:02:50] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:02:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:02:58] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:03:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:03:20] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:04:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:04:15] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:07:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:07:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:07:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:07:35] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:07:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:07:49] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:07:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:07:58] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:07:58] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:08:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:08:18] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:11:18] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:18] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:18] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:18] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:11:18] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:11:21] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:21] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:21] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:21] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:25] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:11:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:11:26] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:11:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:11:27] "HEAD /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:12:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:12:37] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:14:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:14:57] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:14:57] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:15:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:15:45] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:16:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:16:46] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:16:46] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:17:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:17:49] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:23:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:23:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:23:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:23:14] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:23:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:23:28] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:28:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:29:01] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:29:02] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:29:32] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 07:29:33] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 07:38:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:08:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:08:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:08:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:08:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:08:37] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 08:08:37] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 08:11:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:11:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:13:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:13:04] "GET / HTTP/1.0" 200 -
+206.81.22.12 - - [15/Jun/2025 08:16:46] "GET / HTTP/1.1" 200 -
+206.81.22.12 - - [15/Jun/2025 08:16:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Jun/2025 08:24:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:24:07] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 08:24:08] "GET /signup HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:24:08] "GET /login HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:24:08] "GET /deposit HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:24:09] "GET /withdraw HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:24:09] "GET /logout HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:27:25] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:27:25] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 08:31:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:33:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:33:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:33:51] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 08:33:51] "GET /signup HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:33:51] "GET /login HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:33:52] "GET /deposit HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:33:52] "GET /withdraw HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:33:53] "GET /logout HTTP/1.0" 405 -
+127.0.0.1 - - [15/Jun/2025 08:34:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:34:45] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 08:34:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:34:52] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 08:39:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:39:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:39:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:39:31] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 08:39:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 08:39:43] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 08:51:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:00:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:09:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:10:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:10:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:10:11] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 09:10:24] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:10:25] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 09:16:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:17:01] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 09:17:04] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 09:17:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:17:32] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 09:38:04] "GET / HTTP/1.0" 206 -
+127.0.0.1 - - [15/Jun/2025 09:38:04] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 09:38:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:38:36] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 09:38:57] "POST /login HTTP/1.0" 401 -
+127.0.0.1 - - [15/Jun/2025 09:39:05] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:39:16] "GET /transactions?email=sarim HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:39:23] "GET /balance?email=sarim HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:39:31] "POST /logout HTTP/1.0" 200 -
+193.24.211.246 - - [15/Jun/2025 09:48:05] "GET /ecosystem.config.js HTTP/1.1" 404 -
+127.0.0.1 - - [15/Jun/2025 09:48:05] "GET /ecosystem.config.js HTTP/1.0" 404 -
+193.24.211.246 - - [15/Jun/2025 09:48:39] "GET /pm2.config.js HTTP/1.1" 404 -
+127.0.0.1 - - [15/Jun/2025 09:48:39] "GET /pm2.config.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 09:55:53] "GET / HTTP/1.0" 200 -
+148.113.214.202 - - [15/Jun/2025 09:55:54] code 400, message Bad request version ('À\x14À')
+148.113.214.202 - - [15/Jun/2025 09:55:54] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03HH\x94f±ÂF\x0dÁ\x96\x02-ä\x0c©ò%\x86\x8cïý$cBo°4mÐfö§ t¬\x9d wa\x11Â\x8aÖ\x08ô\x86q\x0b\x13tüW&yïU§\x0fâý\x0egF}à\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [15/Jun/2025 09:55:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:55:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:55:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 09:55:58] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 09:55:58] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 10:11:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 10:20:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 10:31:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 10:43:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 10:57:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 10:57:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 10:57:12] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 11:22:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 11:26:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 11:26:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 11:26:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 11:26:53] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 11:26:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 11:26:55] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 11:36:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 11:40:41] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 11:40:47] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 11:50:43] "GET / HTTP/1.0" 200 -
+185.225.28.7 - - [15/Jun/2025 12:03:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jun/2025 12:03:05] "GET / HTTP/1.0" 200 -
+217.138.193.190 - - [15/Jun/2025 12:03:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Jun/2025 12:06:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 12:26:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 12:52:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 12:57:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 12:57:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 12:57:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 12:57:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 12:57:39] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 12:57:39] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 13:05:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 13:06:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 13:06:28] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 13:06:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 13:06:35] "GET /favicon.ico HTTP/1.0" 404 -
+13.57.251.113 - - [15/Jun/2025 13:06:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jun/2025 13:26:10] "GET /developmentserver/metadatauploader HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 13:58:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 13:58:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 13:58:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 13:58:11] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 13:58:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 13:58:20] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 14:36:23] "GET /owa/auth/x.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 14:40:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 15:26:25] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 15:26:25] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 15:26:25] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 15:26:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 15:26:27] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 15:28:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 15:28:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 15:28:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 15:28:30] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 15:28:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 15:28:35] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 15:51:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 15:51:04] "GET /js/lkk_ch.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 15:51:04] "GET /js/twint_ch.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 17:05:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:06:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:06:00] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 17:06:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:06:02] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 17:28:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:28:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:28:54] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:28:54] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 17:28:54] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:28:54] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 17:34:32] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:59:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:59:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:59:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:59:15] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 17:59:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 17:59:16] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 18:12:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:12:58] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 18:12:59] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 18:12:59] "GET /sitemap.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 18:13:05] "GET /config.json HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 18:29:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:29:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:29:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:29:17] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 18:29:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:29:17] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 18:49:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:59:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:59:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:59:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:59:41] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 18:59:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 18:59:42] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 19:25:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 19:27:28] "HEAD / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 19:28:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 19:31:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 19:31:22] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 19:31:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 19:31:27] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 19:33:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 19:33:56] "GET /js/lkk_ch.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 19:33:56] "GET /js/twint_ch.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 19:36:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 19:43:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 19:43:12] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 19:43:42] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 19:43:47] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 19:43:48] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 20:31:20] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 20:47:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 20:47:45] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 20:52:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 21:09:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 21:11:28] "GET / HTTP/1.0" 304 -
+127.0.0.1 - - [15/Jun/2025 21:35:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 21:35:25] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 21:35:26] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 21:35:33] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 21:35:34] "GET /favicon.ico HTTP/1.0" 404 -
+20.168.122.3 - - [15/Jun/2025 21:36:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Jun/2025 21:42:20] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 21:59:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 21:59:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 22:00:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 22:00:01] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 22:00:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 22:00:07] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 23:00:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 23:00:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 23:00:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 23:00:38] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/Jun/2025 23:00:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Jun/2025 23:00:42] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 00:00:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 00:00:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 00:00:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 00:00:30] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 00:00:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 00:00:31] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 00:20:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 00:27:54] "GET /webui/ HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 00:31:36] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 00:33:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 00:34:26] "GET / HTTP/1.0" 200 -
+80.66.75.109 - - [16/Jun/2025 00:36:31] code 400, message Bad request syntax ('\x01\x01æ')
+80.66.75.109 - - [16/Jun/2025 00:36:31] "\x01\x01æ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Jun/2025 00:46:51] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 01:00:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 01:00:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 01:00:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 01:00:57] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 01:00:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 01:00:57] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 01:29:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 01:29:28] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 01:29:28] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 01:29:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 01:29:51] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 01:43:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 01:45:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 01:46:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 01:48:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 02:05:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 02:06:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 02:06:09] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 02:06:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 02:06:30] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 03:04:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 03:10:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 03:10:30] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 03:19:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 03:54:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 04:01:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 04:01:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 04:01:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 04:01:41] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 04:01:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 04:01:42] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 04:12:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 04:28:09] "GET /.git/index HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 04:42:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 04:42:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 04:56:15] "POST /logout HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 05:01:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 05:01:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 05:01:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 05:01:20] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 05:01:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 05:01:21] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 05:03:09] "GET /owa/auth/logon.aspx HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 05:36:34] "GET / HTTP/1.0" 200 -
+3.131.215.38 - - [16/Jun/2025 05:39:55] "GET / HTTP/1.1" 200 -
+3.131.215.38 - - [16/Jun/2025 05:41:53] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.131.215.38 - - [16/Jun/2025 05:41:53] "SSH-2.0-Go" HTTPStatus.BAD_REQUEST -
+205.210.31.152 - - [16/Jun/2025 05:57:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2025 06:07:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 06:07:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 06:07:50] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 06:07:51] "GET /sitemap.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 06:07:51] "GET /robots.txt HTTP/1.0" 404 -
+3.132.23.201 - - [16/Jun/2025 06:13:38] "GET / HTTP/1.1" 200 -
+3.132.23.201 - - [16/Jun/2025 06:15:45] "GET / HTTP/1.1" 200 -
+3.132.23.201 - - [16/Jun/2025 06:16:26] code 400, message Bad request version ('\x82Ó\x8c#ã\x9ad')
+3.132.23.201 - - [16/Jun/2025 06:16:26] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ô\x16Õ\x15?ÊØkr\x09K\x91E©jÐe\x81\x0fò\x1c\x82Ó\x8c#ã\x9ad" HTTPStatus.BAD_REQUEST -
+3.132.23.201 - - [16/Jun/2025 06:17:31] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.132.23.201 - - [16/Jun/2025 06:17:31] "SSH-2.0-Go" HTTPStatus.BAD_REQUEST -
+3.132.23.201 - - [16/Jun/2025 06:18:21] code 400, message Bad request version ('À\x14À')
+3.132.23.201 - - [16/Jun/2025 06:18:21] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03õ¯ÓM=\x9a\x05ñøNHÛiË\x10f\x9döÓcÔ\x83'\x82#\x09\x8a[\x0dëðC\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Jun/2025 06:38:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 07:18:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 07:18:12] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 07:18:12] "GET /favicon.png HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 07:18:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 07:18:40] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 07:30:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 07:30:28] "GET /favicon.ico HTTP/1.0" 404 -
+198.235.24.31 - - [16/Jun/2025 08:20:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 08:46:17] "OPTIONS / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 08:58:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 08:58:47] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:01:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 09:02:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 09:02:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 09:02:05] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:02:06] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 09:02:06] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:06:38] "GET /.git/index HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:13:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 09:16:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 09:16:43] "GET /wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:43] "GET /xmlrpc.php?rsd HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 09:16:43] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:43] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:44] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:44] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:44] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:44] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:45] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:45] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:45] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:45] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:45] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:46] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:46] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:46] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:46] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:16:46] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:43:40] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 09:44:58] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 10:28:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 10:35:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 10:42:12] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 11:02:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 11:02:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 11:02:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 11:02:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 11:02:49] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 11:02:49] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 11:34:10] "GET / HTTP/1.0" 200 -
+64.62.197.137 - - [16/Jun/2025 12:48:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2025 13:03:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 13:03:54] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 13:03:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 13:03:56] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 13:03:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 13:03:56] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 13:38:45] "GET / HTTP/1.0" 200 -
+65.49.1.37 - - [16/Jun/2025 13:52:44] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03jt1\x99¯\\Ã_Õ|.H#ÌÊk')
+65.49.1.37 - - [16/Jun/2025 13:52:44] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03jt1\x99¯\\Ã_Õ|.H#ÌÊk" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Jun/2025 14:27:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 14:27:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 14:27:13] "GET /favicon.ico HTTP/1.0" 404 -
+47.237.137.16 - - [16/Jun/2025 14:46:39] "GET / HTTP/1.0" 200 -
+47.237.137.16 - - [16/Jun/2025 14:46:39] "GET / HTTP/1.1" 200 -
+47.237.137.16 - - [16/Jun/2025 14:46:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Jun/2025 15:04:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 15:04:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 15:04:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 15:04:47] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 15:04:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 15:04:50] "GET /favicon.ico HTTP/1.0" 404 -
+157.173.120.141 - - [16/Jun/2025 15:40:20] code 400, message Bad request version ('À\x13À')
+157.173.120.141 - - [16/Jun/2025 15:40:20] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03©\x8cûj\x95\x13ã­\\Ä0p%\x05×/\x90­\x86,´ôu×\x0cw\x05Ù<(pº øwñyíÒ[í\x11\x02W©Ç\x10IAy\x0c9ò\x16À#Ã1\x88\x8aaÑ`o«\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+167.94.138.34 - - [16/Jun/2025 15:49:04] "GET / HTTP/1.1" 200 -
+167.94.138.34 - - [16/Jun/2025 15:49:12] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.34 - - [16/Jun/2025 15:49:17] code 505, message Invalid HTTP version (2.0)
+167.94.138.34 - - [16/Jun/2025 15:49:17] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.34 - - [16/Jun/2025 15:49:50] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.34 - - [16/Jun/2025 15:50:04] code 400, message Bad request version ('À\x14À')
+167.94.138.34 - - [16/Jun/2025 15:50:04] "\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03sÕÎË5¯\x1a`ß\x1c¯þr\x1c\x954Ô\x11Ì}æÜ\x1a±r"\x11\x95f\x82\x83q 6ï0\x00ÄK'ÛèÙ\x04\x17Ï ð}D:âæ\x82:\x0d×\x85Ô\x19\x99·î\x0c?\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.34 - - [16/Jun/2025 15:50:26] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ît2O')
+167.94.138.34 - - [16/Jun/2025 15:50:26] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ît2O" HTTPStatus.BAD_REQUEST -
+167.94.138.34 - - [16/Jun/2025 15:50:33] "GET /robots.txt HTTP/1.1" 404 -
+167.94.138.34 - - [16/Jun/2025 15:50:45] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.34 - - [16/Jun/2025 15:50:53] code 400, message Bad request version ('À\x14À')
+167.94.138.34 - - [16/Jun/2025 15:50:53] "\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x030\x06J=ä-º[aLÑ³a\x10¡ëPP§\x06\x1c\x07H\x14\x01ò¶^\x0bè¬i ázl81\x96d÷¹´.?\x0d\x93\x90Õ-Â¹\x8a?ïHÚG\x94åîÜÐ!ì\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.55 - - [16/Jun/2025 15:58:26] "GET / HTTP/1.1" 200 -
+167.94.138.55 - - [16/Jun/2025 15:58:32] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.55 - - [16/Jun/2025 15:58:37] code 505, message Invalid HTTP version (2.0)
+167.94.138.55 - - [16/Jun/2025 15:58:37] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.55 - - [16/Jun/2025 15:58:59] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.55 - - [16/Jun/2025 15:59:02] code 400, message Bad request version ('À\x14À')
+167.94.138.55 - - [16/Jun/2025 15:59:02] "\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03±?à\x09n¢\x81cûôJd\x92\x0c5í]ÚE\x85{`3K¿ÊJ\x085ÖÔü 1\x87\x82µ\x855\x9c©ý5^÷`ÁÃ¾\x9b\x0cwä;=S\x0fqº\x8b6ã\x0eÞ\x92\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.55 - - [16/Jun/2025 15:59:12] code 400, message Bad request version ('À\x14À')
+167.94.138.55 - - [16/Jun/2025 15:59:12] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03tù¶¸l"´YE\x0c±KD\x02¿Uiw¹ÒæïÀ\x1a"\x00û\x0c\x8b\x83\x12Ø \x00ÿn\x18\x80©_¶ûu¸ñî\x9b³\\Hê\x15ºË¢\x81OJ\x08\x89\x10¹¥\x05·\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.55 - - [16/Jun/2025 15:59:17] "GET /sitemap.xml HTTP/1.1" 404 -
+167.94.138.55 - - [16/Jun/2025 15:59:34] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.55 - - [16/Jun/2025 15:59:39] code 400, message Bad request syntax ('\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03KÕè9À\x0fQ\x93Y\x19É/ÞØ\x81³\x9eôÏYC\x07')
+167.94.138.55 - - [16/Jun/2025 15:59:39] "\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03KÕè9À\x0fQ\x93Y\x19É/ÞØ\x81³\x9eôÏYC\x07" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Jun/2025 16:20:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 16:20:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 16:20:45] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 16:47:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 17:05:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 17:05:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 17:05:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 17:05:46] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 17:05:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 17:05:47] "GET /favicon.ico HTTP/1.0" 404 -
+162.216.149.144 - - [16/Jun/2025 17:11:24] code 400, message Bad request version ('À\x13À')
+162.216.149.144 - - [16/Jun/2025 17:11:24] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03M\x87=\x1aBØ¢ ¶ÉI¬\x0fC¡0GÖ¤J\x18w5$°7Î,¹ª\x08è À-h|InC\x11\x8a¯¤¶°pÒ\x15\x84ç\x85+\\/(dk\x1d1a\x12=\x0d*\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+162.216.149.144 - - [16/Jun/2025 17:11:25] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03¤\x03UO9æ')
+162.216.149.144 - - [16/Jun/2025 17:11:25] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03¤\x03UO9æ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Jun/2025 17:55:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 17:57:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 17:57:48] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 18:02:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 18:02:43] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 18:02:53] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 18:02:58] "GET /.well-known/security.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 18:38:39] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 18:51:53] "GET /developmentserver/metadatauploader HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 19:06:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 19:06:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 19:06:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 19:06:58] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 19:07:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 19:07:02] "GET /favicon.ico HTTP/1.0" 404 -
+71.6.232.20 - - [16/Jun/2025 19:24:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2025 19:54:01] "GET /actuator/health HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 19:59:33] "GET / HTTP/1.0" 304 -
+20.65.201.33 - - [16/Jun/2025 20:00:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2025 20:01:29] "POST /signup HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 20:01:46] "POST /login HTTP/1.0" 401 -
+127.0.0.1 - - [16/Jun/2025 20:02:23] "POST /signup HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 20:02:31] "POST /login HTTP/1.0" 401 -
+127.0.0.1 - - [16/Jun/2025 20:16:33] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 20:21:38] "POST /login HTTP/1.0" 401 -
+127.0.0.1 - - [16/Jun/2025 20:29:42] "POST /Autodiscover/Autodiscover.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 20:34:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 20:34:38] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 20:34:50] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 20:34:55] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 20:51:39] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 20:57:15] "POST /login HTTP/1.0" 401 -
+127.0.0.1 - - [16/Jun/2025 21:07:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:08:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:08:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:08:05] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 21:08:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:08:06] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 21:12:38] "GET / HTTP/1.0" 304 -
+127.0.0.1 - - [16/Jun/2025 21:12:56] "GET /login HTTP/1.0" 405 -
+127.0.0.1 - - [16/Jun/2025 21:23:36] "GET / HTTP/1.0" 304 -
+127.0.0.1 - - [16/Jun/2025 21:23:47] "GET / HTTP/1.0" 304 -
+127.0.0.1 - - [16/Jun/2025 21:24:04] "POST /login HTTP/1.0" 401 -
+127.0.0.1 - - [16/Jun/2025 21:30:56] "GET /aaa9 HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 21:31:21] "GET /aab8 HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 21:31:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:32:28] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 -
+127.0.0.1 - - [16/Jun/2025 21:35:11] "GET / HTTP/1.0" 200 -
+ * Detected change in '/home/ec2-user/Website-hosted-on-aws/app.py', reloading
+Error no such email: 'NoneType' object is not subscriptable
+Error saving account to database: SSL connection has been closed unexpectedly
+
+Error no such email: connection already closed
+Error saving account to database: connection already closed
+Error no such email: connection already closed
+Error no such email: connection already closed
+Error no such email: connection already closed
+Error no such email: connection already closed
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 497-709-804
+127.0.0.1 - - [16/Jun/2025 21:41:15] "GET / HTTP/1.0" 304 -
+127.0.0.1 - - [16/Jun/2025 21:41:26] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:41:34] "POST /deposit HTTP/1.0" 200 -
+ * Detected change in '/home/ec2-user/Website-hosted-on-aws/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 497-709-804
+127.0.0.1 - - [16/Jun/2025 21:45:11] "GET / HTTP/1.0" 304 -
+127.0.0.1 - - [16/Jun/2025 21:45:34] "POST /signup HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:45:45] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:45:48] "GET /transactions?email=wali HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:45:58] "GET /balance?email=wali HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:46:16] "POST /deposit HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:46:26] "GET /balance?email=wali HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:46:51] "POST /logout HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:47:00] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:47:03] "GET /transactions?email=sarim HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 21:47:10] "GET /balance?email=sarim HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jun/2025 22:06:43] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 200 -

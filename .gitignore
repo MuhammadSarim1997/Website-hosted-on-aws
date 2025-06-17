@@ -1,0 +1,36 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables & secrets
+.env
+*.pem
+*.key
+*.crt
+
+# Virtual environments
+venv/
+.env*/         # VS Code Python environments
+*.venv/
+
+# VS Code project files
+.vscode/
+.history/
+
+# Flask/WSGI logs and runtime files
+*.log
+*.sqlite3
+instance/
+
+# Gitpod or remote containers
+.gitpod.yml
+.gitpod.Dockerfile
+.gitattributes
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code server binaries
+.vscode-server/
